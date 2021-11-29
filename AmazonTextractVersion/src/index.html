@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.min.css">
+    <link type="text/css" rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <link rel='stylesheet' href='stylesheets/style.css'/>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="row">
+            
+            <div class="text-center">
+                <h1><i class="fa fa-search faa-pulse animated"></i> OCR Extractor</h1>
+                <div class="form-group " style="width:100%">    
+                    <div cclass="row">
+                        <form action = "http://localhost:5000/submit" enctype="multipart/form-data" method="post">
+                            <div class="input-group">
+                                <!--Browse button-->
+                                <span class="input-group-btn btn-file "><!-- ng-change="fileUpload();"-->
+                                    <button class="btn btn-primary"> Browse…
+                                     <i class="fa fa-folder-open faa-horizontal animated"></i></button>
+                                    <!--Accepts only image files-->
+                                     <input type=file name=file id="image">
+                                </span>
+    
+                                <!-- <input class="form-control" placeholder="Select File" readonly> -->
+    
+                                <span class="input-group-btn">
+                                    <button class="btn btn-success " type="submit" value="upload">
+                                        Extract
+                                    <i class="fa fa-upload faa-float animated"></i> 
+                                    </button>
+                                </span>
+                            </div>
+                        </form>
+                        
+    
+                    </div>
+    
+                    <div class="row">
+                        
+                            <br><br>
+                            <!--Display uploaded image-->
+                            <img id='img-upload' class="img-rounded box"
+                                 src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif"/>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script>
+$("#image").change(function () {
+        var input=this;
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $img= $('#img-upload');
+                $img.attr('src', e.target.result);
+                /* $img.attr('height', '500px');*/
+            };
+            reader.readAsDataURL(input.files[0]);
+            //console.log(input.files[0]);
+        }
+    });
+</script>
+
+</html>

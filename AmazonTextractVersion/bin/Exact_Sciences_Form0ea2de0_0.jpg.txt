@@ -1,0 +1,11 @@
+
+
+== FOUND KEY & VALUE pairs ===
+
+Yes  : 
+What are my screening options? How do they differ?  : 
+No  : 
+Is Cologuard right for me?  : 
+What are my risk factors for colon cancer?  : 
+cologuard Rx only  : [J 
+What are the symptoms?  : 

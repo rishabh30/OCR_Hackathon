@@ -1,0 +1,58 @@
+
+
+== FOUND KEY & VALUE pairs ===
+
+City, State, Zip:  : 
+Medicare  : 
+Medicare Advantage  : 
+NPI #:  : 
+Private  : 
+No (patient will self-pay)  : 
+Native Hawaiian or other Pacific Islander  : 
+American Indian or Alaska Native  : 
+Prior-Authorization Code (if available):  : 
+Shipping Address:  : 
+Medicaid  : 
+Yes  : 
+Secure Fax Number":  : 
+Female  : 
+Spouse  : 
+Policyholder DOB:  : 
+First Name:  : 
+Yes (complete below)  : 
+Self  : 
+Group Number:  : 
+Tricare  : 
+Date:  : 
+Black or African-American  : 
+Location Address:  : 
+White  : 
+No  : 
+Patient Signature:  : 
+Home  : 
+Last Name:  : 
+Phone Number:  : 
+Subscriber ID/Policy Number:  : 
+Mobile  : 
+Male  : 
+Asian  : 
+Other  : 
+DOB (mm/dd/yyyy):  : 
+Claims Submission Address:  : 
+Sample Received  : 
+Work  : 
+Language Preference (optional):  : 
+Healthcare Organization Name:  : 
+Patient ID/MRN:  : 
+Policyholder Name:  : 
+Primary Insurance Carrier:  : 
+Provider Name:  : 
+Other(s)  : 
+Plan:  : 
+Phone Number (required):  : 
+Sample Collected:  : / 
+Billing Address:  : 
+Same as Shipping  : 
+Z12.11 and Z12.12 (Encounter for screening for malignant neoplasm of colon [Z12.11 and rectum (Z12.12))  : 
+Date of Order  : 
+TIN:  : 463095174 

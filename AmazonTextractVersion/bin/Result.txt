@@ -1,0 +1,59 @@
+
+
+== FOUND KEY & VALUE pairs ===
+
+Medicaid  : 
+Phone Number:  : (900) 000-0000 
+City, State, Zip:  : 999999 
+Patient ID/MRN:  : 343534546 
+Medicare  : X 
+Last Name:  : last 
+Language Preference (optional)  : English 
+Prior-Authorization Code (if available):  : 2343435 
+Billing Address:  : Some Address 
+Medicare Advantage  : 
+Group Number:  : 343436 
+Secure Fax Number*  : (999) 999-9999 
+Primary Insurance Carrier:  : First 
+Claims Submission Address:  : Some Asian 
+Plan:  : 2343534534 
+Other  : 
+Spouse  : X 
+DOB (mm/dd/yyyy):  : 12/04/1995 
+Yes (complete below)  : X 
+First Name:  : first 
+Female  : X 
+Same as Shipping  : Extra Address 
+Tricare  : 
+Patient Signature:  : 
+Provider Name:  : Example 
+American Indian or Alaska Native  : 
+Location Address:  : Some House No. 000xxx 
+Private  : 
+Policyholder Name:  : First 
+Asian  : 
+Phone Number (required):  : (900) 000-0000 
+Healthcare Organization Name:  : Example Org. 
+Mobile  : X 
+Subscriber ID/Policy Number:  : 234353 
+Shipping Address:  : Some Address Extra Address 
+Self  : 
+Work  : X 
+Date:  : 
+Yes  : 
+Policyholder DOB:  : 12/04/1995 
+Other(s)  : extra 
+No  : 
+No (patient will self-pay)  : 
+Male  : 
+Sample Received:  : 
+White  : 
+Home  : 
+Native Hawaiian or other Pacific Islander  : 
+NPI #:  : 4 5 6 7 4 2 4 6 7 8 
+Z12.11 and Z12.12 (Encounter for screening for malignant neoplasm of colon [Z12.11] and rectum [Z12.12])  : X 
+Black or African-American  : X 
+Sample Collected:  : 
+Ordering Provider Signature  : 
+PATIENT ETHNICITY AND RACE  : The completion of this section is optional. 
+Please mark one or more to indicate your patient's race:  : X 

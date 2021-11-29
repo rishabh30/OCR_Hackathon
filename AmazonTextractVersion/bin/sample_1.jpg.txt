@@ -1,0 +1,23 @@
+
+
+== FOUND KEY & VALUE pairs ===
+
+Health Organization Name:  : 123 Healthcare 
+Please Confirm Secure Fax #: For Results and Patient Information  : 608-867-5309 
+Cologuard Order Number:  : 
+Subscriber ID:  : 8675309 
+(Encounter for screening for malignant neoplasm of colon (Z12.11) and rectum (Z12.12)) The above codes are listed as a convenience. Ordering practitioners should report the diagnosis code(s) that best describes the reason for performing the test, regardless of whether the code is listed above or not.  : Z12.11 
+Healthcare Provider Signature: Please Sign this field if blank. We must have a valid Provider Signature to proceed.  : Yes 
+Date Received by ES Labs:  : 6/09/2019 
+Provider NPI:  : 1134225618 
+Group Number:  : 
+Policy Owner/Holder Name:  : last Namer 
+Patient Phone Number:  : 608-555-1003 
+Patient Date of Birth:  : 6/9/1954 
+Patient Name:  : Allie <Last Name> 
+Insurance Carrier Name: (Example: Blue Cross, Aetna) Please add the Claims address or fax a copy of the insurance card  : Turner Er Hooch 
+Insurance Type: (Medicare, Medicare Advantage, Medicaid, Insurance, Sell-Pay)  : MedicareAdvantage 
+Policy Owner/Holder Date of Birth:  : 
+Patient Sex:  : Female 
+Patient Shipping Address:  : 1440 Monroe. Madison WI 53711 
+Provider Name:  : Rob Pizza, MD 

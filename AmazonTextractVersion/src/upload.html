@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+    <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.min.css">
+        <link type="text/css" rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <link rel='stylesheet' href='stylesheets/style.css'/>
+    </head>
+
+   <body>
+    <div class="container ">
+        <div class="row">
+            <div class="text-center">
+                <h1><i class="fa fa-search faa-pulse animated"></i> OCR Extractor</h1>
+                <h3>Extracted Values</h3>
+            </div>
+            
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                      <th scope="col">Label</th>
+                      <th scope="col">Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                 {% for key, value in result %}
+                    <tr>
+                       <th> {{ key }} </th>
+                       <td> {{ value }} </td>
+                    </tr>
+                 {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+      
+   </body>
+</html>
